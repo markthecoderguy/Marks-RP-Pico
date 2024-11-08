@@ -1,9 +1,10 @@
+#made by markthecoderguy on github
 from machine import Pin
 from time import sleep
 import dht 
 
 
-sensor = dht.DHT11(Pin(22))
+sensor = dht.DHT11(Pin(22)) #use pin 22 on pico
 
 while True:
   try:
